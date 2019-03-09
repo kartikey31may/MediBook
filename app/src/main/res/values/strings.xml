@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MediBook</string>
+    <string name="title_activity_appointment_sign_up">ActivityAppointmentSignUp</string>
+
+    <string-array name="specialist">
+
+        <item>Cardiologist</item>
+        <item>Audiologist</item>
+        <item>Dentist</item>
+        <item>ENT specialist</item>
+        <item>Gynaecologist</item>
+        <item>Orthopaedic surgeon</item>
+        <item>Paediatrician</item>
+        <item>Psychiatrists</item>
+        <item>Neurologist</item>
+
+    </string-array>
+</resources>

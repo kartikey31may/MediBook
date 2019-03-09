@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ActivityAppointmentLoggedIn"
+    android:background="@drawable/gradient_back2">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#a4fcfcfc"
+                android:text="Patient Information"
+                android:textSize="30sp"/>
+            <View
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db" />
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:id="@+id/form_textview"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_textview_loggedin"
+                android:textColor="@color/darkred"
+                android:text="\n"/>
+
+            <EditText
+                android:id="@+id/form_problem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:inputType="textLongMessage"
+                android:drawablePadding="12dp"
+                android:padding="8dp"
+                android:hint="Write Your Health Problem"
+                android:textColorHint="#fff"
+                android:maxLines="1"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="50dp"
+                android:drawableLeft="@drawable/ic_person_outline_black_24dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db" />
+
+            <TextView
+                android:clickable="true"
+                android:id="@+id/form_app_ate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:background="@android:color/transparent"
+                android:drawablePadding="12dp"
+                android:padding="8dp"
+                android:text="Appointment date"
+                android:textSize="14dp"
+                android:textColor="#fff"
+                android:maxLines="1"
+                android:drawableLeft="@drawable/ic_date_range_black_24dp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Specialist : "
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+
+                    />
+                <Spinner
+                    android:id="@+id/form_specialist"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:background="@drawable/background_textview_loggedin">
+
+                </Spinner>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db" />
+            <RadioGroup
+
+                android:padding="6dp"
+                android:id="@+id/form_session"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Session : "
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+
+                    />
+                <RadioButton
+                    android:id="@+id/Morning"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Morning"
+                    android:checked="true"
+                    />
+                <RadioButton
+                    android:id="@+id/AfterNoon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="AfterNoon"
+                    />
+                <RadioButton
+                    android:id="@+id/Evening"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Evening"/>
+            </RadioGroup>
+
+
+
+            <View
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db" />
+
+
+            <ProgressBar
+                android:id="@+id/form_progressbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/btn_form_appointmnet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_login_loggedin"
+                android:text="Book Appointment"
+                android:textColor="@color/darkred"
+                android:textAllCaps="false"
+                android:padding="5dp"
+                android:clickable="true"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"/>
+            <View
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db" />
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "424985914855",
+    "firebase_url": "https://medibook-medi31.firebaseio.com",
+    "project_id": "medibook-medi31",
+    "storage_bucket": "medibook-medi31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424985914855:android:33904acadec653c6",
+        "android_client_info": {
+          "package_name": "com.kartikey.medibook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424985914855-cjl3iueqtmmolbvmo3hqhktqvofau51b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kartikey.medibook",
+            "certificate_hash": "635685c5987a3b51e566be03ef225e287a2ab0a3"
+          }
+        },
+        {
+          "client_id": "424985914855-ebqt8b51qsi7mu8f6dnc3d2f8r1eospp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYuL9n-3RIYAAO_xq5mGL2U4-jRZQBEF4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "424985914855-ebqt8b51qsi7mu8f6dnc3d2f8r1eospp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
